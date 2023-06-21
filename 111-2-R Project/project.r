@@ -70,5 +70,3 @@ ggplot(data = merged_df) +
   geom_point(aes(x = Total, y = Location)) +
   labs(x = "Reported Incidents", y = "Country", title = "Piracy Activity By Country 2016-2022") +
   scale_x_continuous(breaks = seq(min(0), max(200), by = 10))
-
-ggplot(data = )
